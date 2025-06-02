@@ -1,12 +1,7 @@
 #include "student.h"
+#include "list.h"
 
-extern float * matrix;
-extern int n;
-
-void readMatrix(int n, float * matrix)
-{
-  return;
-}
+extern List * list;
 
 void readInteger(int *var)
 {
@@ -14,16 +9,11 @@ void readInteger(int *var)
   return;
 }
 
-void firstGauss(void)
-{
-  return;
-}
-
 void student(void) {
+  list = createList();
   // TODO: do everything.
   // readInteger();
-  // mallocMemory();
-  // readMatrix();
-  firstGauss();
+  // readInteger();
+  // insertObject();
   return;
 }
