@@ -1,5 +1,5 @@
-# Linear Matrix Exercise
-Linear Matrix Exercise
+# Create List Exercise
+Create List Exercise
 
 # Identificação
 Nome: <Seu Nome?>
@@ -7,55 +7,31 @@ Nome: <Seu Nome?>
 Matrícula: <Sua Matrícula>
 
 # Instruções
-Dada uma matriz, neste exercício você deve escrever uma função que recebe uma matriz (M) quadrada de ordem n; a sua função deverá realizar operações matriciais elementares para zerar toda a primeira coluna da matriz - assuma que a primeira linha possui o primeiro elemento diferente de zero.
+O seu algoritmo deve ler um número inteiro n, que indica quantos números inteiros serão inseridos na lista; depois deve ler n números inteiros e inserir na lista pré-existente.
+
+Observe que a função de inserção está implementada pela metade. Este exercício exige que você seja capaz de gerenciar memória para criação de cada nó da estrutura de dados.
 
 1. Altere este Readme para conter seu nome e matrícula.
-2. Altere o arquivo student.c
+2. Altere os arquivos student.c e list.c.
 
 # Exemplo 1
 Entrada:
 
-2\
-1.0 2.0\
-2.0 3.0\
+5\
+5 3 2 4 1
 
 Saída:
 
-1.0 2.0\
-0.0 -1.0
+5 4 3 2 1
 
 # Exemplo 2
 Entrada:
 
-3\
-1.0 2.0 3.0\
-0.0 1.0 2.0\
-1.0 0 0 4.0
+7\
+1 2 3 4 5 6 7
 
 
 Saída:
 
-1.0 2.0 3.0\
-0.0 1.0 2.0\
-0.0 -2.0 1.0
-
-# Exemplo 3
-Entrada:
-
-4\
-2.0 3.0 5.0 0.0\
--2.0 0.0 0.0 0.0\
-2.0 1.0 2.0 3.0\
-1.0 3.0 5.0 2.0
-
-Saída:
-
-
-2.0 3.0 5.0 0.0\
-0.0 3.0 5.0 0.0\
-0.0 -2.0 -3.0 3.0\
-0.0 1.5 2.5 2.0
-
-
-
+7 6 5 4 3 2 1
 
